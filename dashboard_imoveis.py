@@ -42,7 +42,7 @@ avg_price_not_furnished = filtered_data[filtered_data['furniture'] == 'not furni
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(18, 8), gridspec_kw={'width_ratios': [2, 1]})
 
 # Gráfico de barras horizontal para o preço médio por cidade sem eixo x
-ax1.barh(avg_price_by_city.index, avg_price_by_city.values, color='red', edgecolor='none')
+ax1.barh(avg_price_by_city.index, avg_price_by_city.values, color='blue', edgecolor='none')
 ax1.set_title("Preço Médio por Cidade (Ordem Decrescente)")
 ax1.spines['top'].set_visible(False)
 ax1.spines['right'].set_visible(False)
